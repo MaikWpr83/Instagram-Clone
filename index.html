@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="favicon icon" href="icons/logo.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Instaclone</title>
+</head>
+
+<body onload="init()">
+
+     <!-- HEADER SECTION -->
+     <header>
+        <div class="logo">
+            <img src="icons/logo.png" alt="logo_favicon">
+            <h1>Instaclone</h1>
+        </div>
+
+        <nav>
+            <img class="icons" src="icons/heart_header.png" alt="heart icon header">
+            <img class="icons" src="icons/message_header.png" alt="message icon header">
+        </nav>
+    </header>
+
+    <div class="main-section">
+        <div class="left-menu">
+            <a href="index.html">
+                <img class="outlined" src="icons/home.png" alt="logo">
+                <span class="link-txt hover">Home</span>
+            </a>
+
+            <a href="#">
+                <img class="outlined" src="icons/search.png" alt="search icon">
+                <span class="link-txt">Search</span>
+            </a>
+
+            <a href="#">
+                <img class="outlined" src="icons/reel.png" alt="reel icon">
+                <span class="link-txt">Reels</span>
+            </a>
+
+            <a href="#">
+                <img class="outlined" src="icons/message.png" alt="message icon">
+                <span class="link-txt">Messages</span>
+            </a>
+
+            <a href="#">
+                <img class="outlined" src="icons/heart.png" alt="heart icon">
+                <span class="link-txt">Likes</span>
+            </a>
+
+            <a href="#">
+                <img class="outlined" src="icons/create.png" alt="plus icon">
+                <span class="link-txt">Create</span>
+            </a>
+
+            <a href="#">
+                <img src="img/profil.jpg" alt="profil photo">
+                <span class="link-txt">Profil</span>
+            </a>
+        </div>
+
+        <div class="post-area">
+            <div id="addFollower" class="following">
+            </div>
+
+            <div id="article" class="section-posts">
+            </div>
+        </div>
+
+        <div class="feed-sidebar">
+            <div class="feed">
+                <div class="user">
+                    <img src="img/profil.jpg" alt="profil photo">
+                    <span>Maik</span>
+                    <button>Switch</button>
+                </div>
+            </div>
+
+            <div id="feedFollower" class="feed">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="index.html"><img class="icons" src="icons/home_footer.png" alt="home icon footer"></a>
+        <img class="icons" src="icons/search_footer.png" alt="search icon footer">
+        <img class="icons" src="icons/reel_footer.png" alt="reels icon footer">
+        <img class="user-img" src="img/profil.jpg" alt="profil photo">
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
